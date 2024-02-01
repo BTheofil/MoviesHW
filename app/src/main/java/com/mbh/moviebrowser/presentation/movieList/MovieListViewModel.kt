@@ -1,4 +1,4 @@
-package com.mbh.moviebrowser.features.movieList
+package com.mbh.moviebrowser.presentation.movieList
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

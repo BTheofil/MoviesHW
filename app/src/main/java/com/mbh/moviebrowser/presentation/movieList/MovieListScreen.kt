@@ -1,4 +1,4 @@
-package com.mbh.moviebrowser.features.movieList
+package com.mbh.moviebrowser.presentation.movieList
 
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -11,8 +11,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.mbh.moviebrowser.domain.model.MovieDomain
-import com.mbh.moviebrowser.features.components.ProgressIndicator
-import com.mbh.moviebrowser.features.movieList.components.MovieListItem
+import com.mbh.moviebrowser.presentation.components.ProgressIndicator
+import com.mbh.moviebrowser.presentation.movieList.components.MovieListItem
 
 @Composable
 fun MovieListScreen(

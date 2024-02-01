@@ -1,4 +1,4 @@
-package com.mbh.moviebrowser.features.movieDetails
+package com.mbh.moviebrowser.presentation.movieDetails
 
 import android.content.res.Configuration
 import androidx.compose.foundation.Image
@@ -24,7 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import com.mbh.moviebrowser.domain.model.MovieDomain
-import com.mbh.moviebrowser.features.components.ProgressIndicator
+import com.mbh.moviebrowser.presentation.components.ProgressIndicator
 
 @Composable
 fun MovieDetailsScreen(

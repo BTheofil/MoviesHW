@@ -1,4 +1,4 @@
-package com.mbh.moviebrowser.features.movieDetails
+package com.mbh.moviebrowser.presentation.movieDetails
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel

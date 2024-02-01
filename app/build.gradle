@@ -80,7 +80,9 @@ dependencies {
     implementation coroutines.coroutines
 
     // DI
-   // implementation di.dagger
+    implementation "com.google.dagger:hilt-android:2.44"
+    kapt "com.google.dagger:hilt-compiler:2.44"
+    implementation "androidx.hilt:hilt-navigation-compose:1.0.0"
 
     // Utils
     implementation utils.gson
@@ -88,8 +90,4 @@ dependencies {
     // Kapt
     //kapt annotation.dagger
     kapt annotation.room
-
-    implementation "com.google.dagger:hilt-android:2.44"
-    kapt "com.google.dagger:hilt-compiler:2.44"
-    implementation "androidx.hilt:hilt-navigation-compose:1.0.0"
 }

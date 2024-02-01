@@ -1,4 +1,4 @@
-package com.mbh.moviebrowser.features.components
+package com.mbh.moviebrowser.presentation.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.CircularProgressIndicator

@@ -1,4 +1,4 @@
-package com.mbh.moviebrowser.features.movieList.components
+package com.mbh.moviebrowser.presentation.movieList.components
 
 import android.R
 import androidx.compose.foundation.Image
